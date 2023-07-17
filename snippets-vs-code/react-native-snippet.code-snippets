@@ -1,0 +1,22 @@
+{
+  // Created with ❤️ by Matheus P. Agostinho
+  // 🛸 Snippet to React Native!
+
+  "Create component React Native": {
+    "prefix": "rnbc",
+    "body": [
+      "import React from 'react';",
+      "import { View } from 'react-native';",
+      "",
+      "import { styles } from './styles';",
+      "",
+      "export function $1() {",
+      "  return (",
+      "    <View style={styles.container}>",
+      "      ",
+      "    </View>",
+      "  );",
+      "}"
+    ]
+  }
+}

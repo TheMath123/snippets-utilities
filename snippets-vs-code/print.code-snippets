@@ -1,0 +1,16 @@
+{
+  // Created with ❤️ by Matheus P. Agostinho
+  // 🛸 Snippet to spped up debugs in Dart!
+
+  "Print to console": {
+    "prefix": ["db", "debug"],
+    "body": ["debugPrint('$1');"],
+    "description": "Debug print text output to console"
+  },
+
+  "Print to console error": {
+    "prefix": ["pr", "print"],
+    "body": ["print('$1');"],
+    "description": "Print text output to console"
+  }
+}

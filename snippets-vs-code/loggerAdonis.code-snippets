@@ -1,0 +1,28 @@
+{
+  // Created with ❤️ by Matheus P. Agostinho
+  // 🛸 Snippet to spped up debugs in Adonis!
+
+  "Print to logger": {
+    "prefix": ["log", "logger debug"],
+    "body": ["Logger.debug('$1');"],
+    "description": "Logger debug in output to console"
+  },
+
+  "Print to logger error": {
+    "prefix": ["loge", "logger error"],
+    "body": ["Logger.error('$1');"],
+    "description": "Logger error in output to console"
+  },
+
+  "Print to logger info": {
+    "prefix": ["loge", "logger info"],
+    "body": ["Logger.info('$1');"],
+    "description": "Logger info in output to console"
+  },
+
+  "Import Logger Adonis": {
+    "prefix": ["ilog", "import logger"],
+    "body": ["const Logger = use(\"Logger\");"],
+    "description": "Import Logger for adonis"
+  }
+}

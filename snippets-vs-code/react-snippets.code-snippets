@@ -1,0 +1,67 @@
+{
+  // Created with ❤️ by Matheus P. Agostinho
+  // 🛸 Snippet to React!
+
+  "Use Effect": {
+    "prefix": ["useEffect"],
+    "body": ["useEffect(() => {$1}, []);"],
+    "description": "Create useEffect react hook"
+  },
+
+  "Create component React Web": {
+    "prefix": "rbc",
+    "body": [
+      "import React from 'react';",
+      "",
+      "import { styles } from './$1.module.scss';",
+      "",
+      "export function $1() {",
+      "  return (",
+      "    <div style={styles.container}>",
+      "      ",
+      "    </div>",
+      "  );",
+      "}"
+    ],
+    "description": "Create component react"
+  },
+
+  "Create context": {
+    "prefix": "rctx",
+    "body": [
+      "import { ReactNode, createContext, useContext, useState } from \"react\";",
+      "",
+      "interface IChildrenProps {",
+      "  children: ReactNode;",
+      "}",
+      "",
+      "// Context - values",
+      "interface I$1Props {",
+      "  stage: boolean;",
+      "}",
+      "",
+      "// Context - In case you need to set default values within context",
+      "export const $1 = createContext({} as I$1Props);",
+      "",
+      "// Context Provider",
+      "export function $1Provider({ children }: IChildrenProps) {",
+      " const [stage, setStage] = useState(false);",
+      "  return (",
+      "    <$1.Provider",
+      "      value={{",
+      "        stage,",
+      "      }}",
+      "    >",
+      "      {children}",
+      "    </$1.Provider>",
+      "  );",
+      "}",
+      "",
+      "// Hack Hook",
+      "export function use$2() {",
+      "  return useContext($1);",
+      "}"
+    ],
+    "description": "Create context of react context API"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  // Created with ❤️ by Matheus P. Agostinho
+  // 🛸 Snippet to spped up debugs in JS and TS!
+
+  "Print to console": {
+    "prefix": ["cl", "log"],
+    "body": ["console.log('$1');"],
+    "description": "Log output to console"
+  },
+
+  "Print to console error": {
+    "prefix": ["ce", "error"],
+    "body": ["console.error('$1');"],
+    "description": "Log output to console"
+  },
+
+  "Example Snippet": {
+    "scope": "javascript,typescript",
+    "prefix": ["example-snippet"],
+    "body": ["console.log('$1');"],
+    "description": "Log output to console"
+  }
+}
