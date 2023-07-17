@@ -9,5 +9,5 @@ for Visual Studio Code
 - [Snippets for React](./snippets-vs-code/react-snippets.code-snippets)
 
 ### 📒 Templates Code
-[Context](/context/contextName.tsx)
+[ReactContext](/code/contextName.tsx)
 
